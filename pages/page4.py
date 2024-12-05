@@ -5,7 +5,7 @@ with st.sidebar:
     if name:
         st.write(f"你好，{name}")
 
-column1, column2, column3 = st.columns([1, 2, 3])
+column1, column2, column3 = st.columns([1, 2, 1])
 with column1:
     password = st.text_input("请输入你的密码：", type="password")
 

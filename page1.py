@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.title('我的測試網站 🇯🇵')
-st.write('## Page 1,下午好！')
+st.title('測試網站 🇯🇵 🇰🇷')
+st.write('## Page1,下午好！')
 st.image('./baseball.png', width=200)
 
 df = pd.DataFrame({"學號": ["004","008","018", "093", "052"],
